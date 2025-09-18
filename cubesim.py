@@ -32,3 +32,8 @@ while health > 0 and hunger < 25:
         print("You take the cube on a walk. Nothing eventful happens.")
         density = density - 3
         moss = moss + 1
+    elif selection == 2 and dice == 5:
+        print("You take the cube on a walk. It walks directly into a patch of moss and gets stuck.")
+        density = density - 3
+        moss = moss + 3
+        health = health - 1
